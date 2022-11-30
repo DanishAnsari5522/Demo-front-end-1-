@@ -1,0 +1,328 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    
+    width:100%;
+ 
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.for_bgimage{
+width:100%;
+background-image: url("https://www.citranchi.ac.in/images/img.jpg");
+background-size: cover;
+}
+
+.main_content{
+   padding-top:70px;
+   width:80%;
+   margin:auto;
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.main_content img{
+    width:400px;
+
+}
+.casfyb{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Read_more{
+    background-color: blanchedalmond;
+    color:black;
+    padding:10px;
+    width:100px;
+    margin-top:40px;
+}
+
+.development{
+    /*background-color: rgb(192, 229, 226);*/
+    width: 100%;
+    padding:0 200px;
+    box-sizing: border-box;
+    display:flex;
+    padding-top:40px;
+    padding-bottom: 20px;
+
+}
+
+.socal{
+    display: flex;
+    align-items: center;
+}
+
+.icons{
+    font-size: 24px;
+    width:100px;
+    height:70px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-color: rgb(92, 143, 201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option{
+    width:100%;
+    display: flex;
+    background-color: white;
+    padding:40px 0;
+}
+
+.startup{
+    width:337px;
+    height:700px;
+    padding-left:20px;
+    border:2px solid blue;
+    box-sizing: border-box;
+}
+
+
+.startup h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color:#a09c9c;
+}
+
+.startup p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color:blue;
+}
+
+.startup:hover{
+    border: 0px;
+    margin-top:-10px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.startup ul{
+    font-family: sans-serif;
+color:rgb(86, 86, 150);
+font-size: 14px;
+}
+
+.list{
+    width:80%;
+    margin:auto;
+}
+
+.list ul{
+    list-style: none;
+    color:blue;
+}
+
+.our_services{
+    width:80%;
+    margin:auto;
+}
+
+.our{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin:20px 0;
+    color:rgb(48, 48, 223);
+}
+
+.our_services_item1{
+    display:flex;
+    justify-content: center;
+}
+
+
+.web_develop{
+width:300px;
+height:300px;
+padding-top:70px;
+padding-bottom: 50px;
+background-color:#b8b3b3;
+margin: 10px;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+.web_develop i{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: blue;
+    color:white;
+}
+
+.web_develop p{
+    margin-top:20px;
+    font-size: 21px;
+    font-family: sans-serif;
+    color:rgb(91, 34, 102);
+}
+
+.web_develop .know_more{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top:20px;
+    padding-top: 20px;
+    letter-spacing: 5px;
+    color:rgb(10, 116, 143);
+    
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.rating_box{
+    width:300px;
+}
+.persentage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.our_valuable
+{
+    font-size: 25px;
+    margin:50px 0;
+    color:rgb(54, 54, 107);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Valuable_image{
+    float: left;
+}
+
+.Valuable_image img{
+    width:200px;
+    height: 150px;
+    margin:25px 5px;
+}
+
+@media screen and (max-width:500px)
+{
+    .phone_image{
+        display:none;
+    }
+
+    .development{
+   
+        padding:0 200px;
+        box-sizing: border-box;
+        display:inline;
+        padding-top:40px;
+        padding-bottom: 20px;
+    }
+    
+    .socal{
+        display: flex;
+        align-items: center;
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+
+    .option{
+        display: inline;
+        background-color: white;
+        padding:40px 0;
+    }
+
+    .startup{
+        width:100%;
+        padding-left:20px;
+        border:2px solid blue;
+        box-sizing: border-box;
+    }
+
+    .list{
+        width:95%;
+        margin: 50px auto;
+       
+    }
+    
+    .list ul li{
+        line-height: 30px;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+
+    .our_services{
+        width:100%;
+        margin:auto;
+    }
+
+    .our_services_item1{
+        display:inline;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .web_develop{
+        width:87%;
+        padding-top:70px;
+        padding-bottom: 50px;
+        background-color:#b8b3b3;
+        margin: 10px;
+        box-sizing: border-box;
+        }
+
+        .rating{
+            display: inline;
+            align-items: center;
+            justify-content: center;
+            margin-top:30px;
+        }
+
+        .rating_box{
+            width:100%;
+        }
+
+         
+        .Valuable_image {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .Valuable_image img{
+          width: 400px;
+          height:300px;
+          margin:25px 5px;
+        
+        }
+}
